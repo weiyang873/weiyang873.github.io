@@ -1,0 +1,27 @@
+name: "my-website"
+
+navbar:
+    title: "Wei Yang's site"
+    left:
+      - text: "Home"
+        #icon: fa-home
+        href: index.html
+      - text: "Research"
+        href: Research.html
+      - text: "Teaching"
+        href: Teaching.html
+      #- text: "Data"
+      # href: Data.html
+
+output: 
+#rmdformats::material
+  html_document:
+    theme: journal
+    #downcute_theme: "chaos"
+    highlight: textmate
+    include:
+    #after_body: footer.html
+    css: styles.css
+
+editor: visual
+
